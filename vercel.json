@@ -15,6 +15,23 @@
         }
     ],
     "env": {
+
+        "APP_NAME": "Lumen",
+        "APP_ENV": "local",
+
+        "APP_DEBUG": "true",
+        "APP_TIMEZONE": "UTC",
+
+        "DB_CONNECTION": "mysql",
+        "DB_HOST": "eq8z1.myd.infomaniak.com",
+        "DB_PORT": "3306",
+        "DB_DATABASE": "eq8z1_timbrage",
+        "DB_USERNAME": "eq8z1_adm_timbra",
+        "DB_PASSWORD": "N8-RdufcxN9",
+
+        "QUEUE_CONNECTION": "sync",
+
+
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
